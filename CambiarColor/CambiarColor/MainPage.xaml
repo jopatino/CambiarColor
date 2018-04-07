@@ -4,8 +4,46 @@
              xmlns:local="clr-namespace:CambiarColor"
              x:Class="CambiarColor.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+        <BoxView x:Name="boxColor" 
+                 BackgroundColor="Black"
+                 HeightRequest="300">
+            
+        </BoxView>
+        <Label Margin="25, 30, 0, 0" 
+               Text="Rojo">
+            
+        </Label>
+        <Slider x:Name="sldRojo" 
+                Margin="15, 0, 0, 0">
+        </Slider>
+        <Label Margin="25, 30, 0, 0" 
+               Text="Verde">
+
+        </Label>
+        <Slider x:Name="sldVerde" 
+                Margin="15, 0, 0, 0">
+        </Slider>
+        <Label Margin="25, 30, 0, 0" 
+               Text="Azul">
+
+        </Label>
+        <Slider x:Name="sldAzul" 
+                Margin="15, 0, 0, 0">
+        </Slider>
+        <Label Margin="25, 30, 0, 0" 
+               Text="Opacidad">
+
+        </Label>
+        <Slider x:Name="Opacidad" 
+                Margin="15, 0, 0, 0">
+        </Slider>
+        <Label x:Name="lbDisplay" 
+               Text="Valor Hexadecimal"
+               FontAttributes="Bold"
+               FontSize="Large">
+            
+        </Label>
+    </StackLayout>
 
 </ContentPage>
