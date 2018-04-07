@@ -15,28 +15,32 @@
             
         </Label>
         <Slider x:Name="sldRojo" 
-                Margin="15, 0, 0, 0">
+                Margin="15, 0, 0, 0"
+                ValueChanged="sld_ValueChanged">
         </Slider>
         <Label Margin="25, 30, 0, 0" 
                Text="Verde">
 
         </Label>
         <Slider x:Name="sldVerde" 
-                Margin="15, 0, 0, 0">
+                Margin="15, 0, 0, 0"
+                ValueChanged="sld_ValueChanged">
         </Slider>
         <Label Margin="25, 30, 0, 0" 
                Text="Azul">
 
         </Label>
         <Slider x:Name="sldAzul" 
-                Margin="15, 0, 0, 0">
+                Margin="15, 0, 0, 0"
+                ValueChanged="sld_ValueChanged">
         </Slider>
         <Label Margin="25, 30, 0, 0" 
                Text="Opacidad">
 
         </Label>
-        <Slider x:Name="Opacidad" 
-                Margin="15, 0, 0, 0">
+        <Slider x:Name="sldOpacidad" 
+                Margin="15, 0, 0, 0"
+                ValueChanged="sld_ValueChanged">
         </Slider>
         <Label x:Name="lbDisplay" 
                Text="Valor Hexadecimal"
